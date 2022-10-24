@@ -20,7 +20,7 @@ function addUser(e) {
       return el.email == userEmail1;
     });
     if (flag.length >= 1) {
-      alert("User Already Sign Up");
+      alert("User Already Sign Up please login");
     } else {
       userData.push(user);
       localStorage.setItem("users", JSON.stringify(userData));
@@ -36,6 +36,7 @@ function addUser(e) {
 function myFunction() {
   var x = document.getElementById("userPassword");
   var y = document.getElementById("eye");
+  
   if (x.type === "password") {
     x.type = "text";
     y.src = "eye-solid.svg";
