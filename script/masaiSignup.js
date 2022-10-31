@@ -38,9 +38,9 @@ function myFunction() {
   var y = document.getElementById("eye");
   if (x.type === "password") {
     x.type = "text";
-    y.src = "eye-solid.svg";
+    y.src = "./img/eye-solid.svg";
   } else {
     x.type = "password";
-    y.src = "eye-slash-solid.svg";
+    y.src = "./img/eye-slash-solid.svg";
   }
 }

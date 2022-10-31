@@ -53,6 +53,10 @@ button {
   border-radius: 8px;
   border: 1px solid gray;
   background-color: white;
+  cursor: pointer;
+}
+input[type="submit"] {
+  cursor: pointer;
 }
 button > img {
   width: 25px;
